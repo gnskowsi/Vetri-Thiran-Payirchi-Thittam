@@ -1,0 +1,37 @@
+# =========================================
+# FITBUDDY ENVIRONMENT CONFIGURATION
+# =========================================
+
+# Your Google Gemini API key
+GEMINI_API_KEY=your_api_key_here
+
+
+# Gemini models
+WORKOUT_MODEL=gemini-3.1-pro-preview
+
+NUTRITION_MODEL=gemini-3.8-flash
+
+
+# Database
+DATABASE_URL=sqlite:///./fitbuddy.db
+
+
+# Environment
+ENVIRONMENT=development
+
+
+# AI testing mode
+#
+# true  = no Gemini API required
+# false = use Gemini API
+#
+MOCK_AI=false
+
+
+# =========================================
+# OPTIONAL ADMIN LOGIN
+# =========================================
+
+ADMIN_USERNAME=admin
+
+ADMIN_PASSWORD=admin123
